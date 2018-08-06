@@ -1,0 +1,273 @@
+2018-08-06 12:42:59.117  INFO 19228 --- [main] org.xxpay.XxPayWebApplication            : No active profile set, falling back to default profiles: default
+2018-08-06 12:42:59.152  INFO 19228 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a70d302: startup date [Mon Aug 06 12:42:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bb3058
+2018-08-06 12:43:00.821  INFO 19228 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1f8bd1cd-002d-39ec-aba7-eb826570d956
+2018-08-06 12:43:00.842  INFO 19228 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-06 12:43:01.048  INFO 19228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf0fc04d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-06 12:43:01.991  INFO 19228 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3010 (http)
+2018-08-06 12:43:02.013  INFO 19228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-06 12:43:02.017  INFO 19228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-06 12:43:02.352  INFO 19228 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-06 12:43:02.353  INFO 19228 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3201 ms
+2018-08-06 12:43:02.841  INFO 19228 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-06 12:43:02.850  INFO 19228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-06 12:43:02.852  INFO 19228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-06 12:43:02.853  INFO 19228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-06 12:43:02.856  INFO 19228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-06 12:43:04.595  WARN 19228 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-06 12:43:04.598  INFO 19228 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-06 12:43:04.608  WARN 19228 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-06 12:43:04.608  INFO 19228 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-06 12:43:05.189  INFO 19228 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a70d302: startup date [Mon Aug 06 12:42:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bb3058
+2018-08-06 12:43:05.391  INFO 19228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pay/create_order]}" onto public java.lang.String org.xxpay.web.controller.PayOrderController.payOrder(java.lang.String)
+2018-08-06 12:43:05.393  INFO 19228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pay/query_order]}" onto public java.lang.String org.xxpay.web.controller.QueryPayOrderController.queryPayOrder(java.lang.String)
+2018-08-06 12:43:05.397  INFO 19228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 12:43:05.400  INFO 19228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 12:43:05.636  INFO 19228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 12:43:05.636  INFO 19228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 12:43:05.745  INFO 19228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 12:43:06.618  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-08-06 12:43:06.636  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-08-06 12:43:06.947  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-06 12:43:06.962  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-06 12:43:06.965  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-06 12:43:06.968  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-06 12:43:06.971  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-06 12:43:06.994  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-06 12:43:07.020  INFO 19228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4a70d302,type=ConfigurationPropertiesRebinder]
+2018-08-06 12:43:07.251  INFO 19228 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-08-06 12:43:07.259  INFO 19228 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-08-06 12:43:07.283  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-08-06 12:43:07.289  INFO 19228 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-08-06 12:43:07.291  INFO 19228 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-08-06 12:43:07.291  INFO 19228 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-08-06 12:43:07.292  INFO 19228 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-08-06 12:43:07.531  INFO 19228 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 12:43:07.534  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-08-06 12:43:07.537  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-08-06 12:43:07.537  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-08-06 12:43:07.537  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-08-06 12:43:07.538  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-08-06 12:43:07.538  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-08-06 12:43:07.538  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-08-06 12:43:07.558  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-08-06 12:43:07.559  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-08-06 12:43:07.564  INFO 19228 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-08-06 12:43:07.568  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1533530587568 with initial instances count: 2
+2018-08-06 12:43:07.743  INFO 19228 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application xxpay-web with eureka with status UP
+2018-08-06 12:43:07.746  INFO 19228 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1533530587745, current=UP, previous=STARTING]
+2018-08-06 12:43:07.750  INFO 19228 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010: registering service...
+2018-08-06 12:43:07.814  INFO 19228 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010 - registration status: 204
+2018-08-06 12:43:07.978  INFO 19228 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3010 (http)
+2018-08-06 12:43:07.983  INFO 19228 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3010
+2018-08-06 12:43:07.988  INFO 19228 --- [main] org.xxpay.XxPayWebApplication            : Started XxPayWebApplication in 16.631 seconds (JVM running for 17.858)
+2018-08-06 12:48:07.542  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 12:53:07.544  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 12:58:07.545  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 13:03:07.547  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 13:08:07.549  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 13:58:19.096  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:03:19.098  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:08:19.100  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:13:19.102  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:18:19.104  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:23:19.105  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:28:19.108  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:33:19.112  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:38:19.115  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:43:19.118  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:48:19.121  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:53:19.125  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:53:27.070  INFO 5216 --- [main] org.xxpay.XxPayWebApplication            : No active profile set, falling back to default profiles: default
+2018-08-06 14:53:27.089  INFO 5216 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@626b639e: startup date [Mon Aug 06 14:53:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ae9cfc1
+2018-08-06 14:53:28.382  INFO 5216 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1f8bd1cd-002d-39ec-aba7-eb826570d956
+2018-08-06 14:53:28.404  INFO 5216 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-06 14:53:28.624  INFO 5216 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ea76a7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-06 14:53:29.623  INFO 5216 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3010 (http)
+2018-08-06 14:53:29.641  INFO 5216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-06 14:53:29.644  INFO 5216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-06 14:53:29.982  INFO 5216 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-06 14:53:29.985  INFO 5216 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2896 ms
+2018-08-06 14:53:30.496  INFO 5216 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-06 14:53:30.508  INFO 5216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-06 14:53:30.510  INFO 5216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-06 14:53:30.510  INFO 5216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-06 14:53:30.513  INFO 5216 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-06 14:53:32.362  WARN 5216 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-06 14:53:32.366  INFO 5216 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-06 14:53:32.378  WARN 5216 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-06 14:53:32.378  INFO 5216 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-06 14:53:33.040  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@626b639e: startup date [Mon Aug 06 14:53:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ae9cfc1
+2018-08-06 14:53:33.275  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pay/create_order]}" onto public java.lang.String org.xxpay.web.controller.PayOrderController.payOrder(java.lang.String)
+2018-08-06 14:53:33.278  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pay/query_order]}" onto public java.lang.String org.xxpay.web.controller.QueryPayOrderController.queryPayOrder(java.lang.String)
+2018-08-06 14:53:33.282  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 14:53:33.284  INFO 5216 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 14:53:33.529  INFO 5216 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 14:53:33.531  INFO 5216 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 14:53:33.704  INFO 5216 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 14:53:34.678  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-08-06 14:53:34.701  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-08-06 14:53:35.034  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-06 14:53:35.052  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-06 14:53:35.055  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-06 14:53:35.061  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-06 14:53:35.065  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-06 14:53:35.097  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-06 14:53:35.120  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=626b639e,type=ConfigurationPropertiesRebinder]
+2018-08-06 14:53:35.435  INFO 5216 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-08-06 14:53:35.442  INFO 5216 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-08-06 14:53:35.463  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-08-06 14:53:35.468  INFO 5216 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-08-06 14:53:35.470  INFO 5216 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-08-06 14:53:35.470  INFO 5216 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-08-06 14:53:35.470  INFO 5216 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-08-06 14:53:35.696  INFO 5216 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 14:53:35.699  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-08-06 14:53:35.700  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-08-06 14:53:35.701  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-08-06 14:53:35.701  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-08-06 14:53:35.701  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-08-06 14:53:35.701  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-08-06 14:53:35.701  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-08-06 14:53:35.715  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-08-06 14:53:35.718  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-08-06 14:53:35.722  INFO 5216 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-08-06 14:53:35.726  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1533538415726 with initial instances count: 4
+2018-08-06 14:53:35.853  INFO 5216 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application xxpay-web with eureka with status UP
+2018-08-06 14:53:35.853  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1533538415853, current=UP, previous=STARTING]
+2018-08-06 14:53:35.856  INFO 5216 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010: registering service...
+2018-08-06 14:53:35.935 ERROR 5216 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-3010"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_171]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_171]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_171]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.xxpay.XxPayWebApplication.main(XxPayWebApplication.java:32) [classes/:na]
+
+2018-08-06 14:53:35.937 ERROR 5216 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-3010]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-3010]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.xxpay.XxPayWebApplication.main(XxPayWebApplication.java:32) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_171]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_171]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_171]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 14 common frames omitted
+
+2018-08-06 14:53:35.943  INFO 5216 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010 - registration status: 204
+2018-08-06 14:53:35.960  INFO 5216 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-08-06 14:53:35.987  INFO 5216 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-08-06 14:53:36.003 ERROR 5216 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 3010 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 3010, or configure this application to listen on another port.
+
+2018-08-06 14:53:36.014  INFO 5216 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@626b639e: startup date [Mon Aug 06 14:53:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ae9cfc1
+2018-08-06 14:53:36.018  INFO 5216 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application xxpay-web with eureka with status DOWN
+2018-08-06 14:53:36.019  WARN 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1533538416019, current=DOWN, previous=UP]
+2018-08-06 14:53:36.020  INFO 5216 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010: registering service...
+2018-08-06 14:53:36.022  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-08-06 14:53:36.029  INFO 5216 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010 - registration status: 204
+2018-08-06 14:53:36.031  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-08-06 14:53:36.324  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010 - deregister  status: 200
+2018-08-06 14:53:36.347  INFO 5216 --- [main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-08-06 14:53:36.354  INFO 5216 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-08-06 14:53:36.355  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-06 14:53:36.356  INFO 5216 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-06 14:53:36.518  WARN 5216 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-06 14:53:36.520  INFO 5216 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-06 14:53:53.711  INFO 19228 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010 - Re-registering apps/XXPAY-WEB
+2018-08-06 14:53:53.712  INFO 19228 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010: registering service...
+2018-08-06 14:53:53.722  INFO 19228 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_XXPAY-WEB/DESKTOP-N95J6P7:xxpay-web:3010 - registration status: 204
+2018-08-06 14:58:19.127  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:03:19.128  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:08:19.130  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:13:19.134  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:13:41.227  INFO 19228 --- [http-nio-3010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-06 15:13:41.227  INFO 19228 --- [http-nio-3010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-06 15:13:41.414  INFO 19228 --- [http-nio-3010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 186 ms
+2018-08-06 15:13:41.513  INFO 19228 --- [http-nio-3010-exec-1] o.x.web.controller.PayOrderController    : ###### 开始接收商户统一下单请求 ######
+2018-08-06 15:13:41.520  INFO 19228 --- [http-nio-3010-exec-1] o.x.web.controller.PayOrderController    : 【商户统一下单】/pay/create_order, host:172.26.203.12, service_id:xxpay-web, params:{"amount":1,"mchId":"20001223","mchOrderNo":1533539618514,"subject":"XXPAY支付测试","sign":"AA5CADF7417ACE7F918C09FDFB67BBA4","body":"XXPAY支付测试","param1":"","param2":"","clientIp":"211.94.116.218","extra":"{\n  \"productId\": \"120989823\",\n  \"openId\": \"oIkQuwhPgPUgl-TvQ48_UUpZUwMs\",\n  \"sceneInfo\": {\n    \"h5_info\": {\n      \"type\": \"Wap\",\n      \"wap_url\": \"http://shop.xxpay.org\",\n      \"wap_name\": \"xxpay充值\"\n    }\n  }\n ,\"discountable_amount\":\"0.00\",  \"undiscountable_amount\":\"0.00\",}","notifyUrl":"http://shop.xxpay.org/goods/payNotify","currency":"cny","device":"WEB","channelId":"WX_NATIVE"}
+2018-08-06 15:13:42.311  INFO 19228 --- [hystrix-MchInfoServiceClient-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5c6219fa: startup date [Mon Aug 06 15:13:42 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a70d302
+2018-08-06 15:13:42.451  INFO 19228 --- [hystrix-MchInfoServiceClient-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-06 15:13:42.890  INFO 19228 --- [hystrix-MchInfoServiceClient-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: XXPAY-SERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-08-06 15:13:42.951  INFO 19228 --- [hystrix-MchInfoServiceClient-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-XXPAY-SERVICE
+2018-08-06 15:13:43.019  INFO 19228 --- [hystrix-MchInfoServiceClient-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: XXPAY-SERVICE instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=XXPAY-SERVICE,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-08-06 15:13:43.037  INFO 19228 --- [hystrix-MchInfoServiceClient-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2018-08-06 15:13:43.097  INFO 19228 --- [hystrix-MchInfoServiceClient-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: XXPAY-SERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-08-06 15:13:43.103  INFO 19228 --- [hystrix-MchInfoServiceClient-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client XXPAY-SERVICE initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=XXPAY-SERVICE,current list of Servers=[172.26.203.12:3000],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.26.203.12:3000;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7842645a
+2018-08-06 15:13:44.203  INFO 19228 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: XXPAY-SERVICE.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-08-06 15:13:44.962  INFO 19228 --- [http-nio-3010-exec-1] o.x.web.controller.PayOrderController    : 查询商户没有正常返回数据,code=0002,msg=数据对象不存在
+2018-08-06 15:13:44.962  INFO 19228 --- [http-nio-3010-exec-1] o.x.web.controller.PayOrderController    : 【商户统一下单】参数校验不通过:Can't found mchInfo[mchId=20001223] record in db.
+2018-08-06 15:13:44.964  INFO 19228 --- [http-nio-3010-exec-1] org.xxpay.common.util.XXPayUtil          : 生成响应数据:{retCode=FAIL, retMsg=Can't found mchInfo[mchId=20001223] record in db.}
+2018-08-06 15:14:59.353  INFO 19228 --- [http-nio-3010-exec-3] o.x.web.controller.PayOrderController    : ###### 开始接收商户统一下单请求 ######
+2018-08-06 15:14:59.354  INFO 19228 --- [http-nio-3010-exec-3] o.x.web.controller.PayOrderController    : 【商户统一下单】/pay/create_order, host:172.26.203.12, service_id:xxpay-web, params:{"amount":1,"mchId":"10000000","mchOrderNo":1533539698988,"subject":"XXPAY支付测试","sign":"0D66AE2F15EDE78BFB1EB765D49E84EA","body":"XXPAY支付测试","param1":"","param2":"","clientIp":"211.94.116.218","extra":"{\n  \"productId\": \"120989823\",\n  \"openId\": \"oIkQuwhPgPUgl-TvQ48_UUpZUwMs\",\n  \"sceneInfo\": {\n    \"h5_info\": {\n      \"type\": \"Wap\",\n      \"wap_url\": \"http://shop.xxpay.org\",\n      \"wap_name\": \"xxpay充值\"\n    }\n  }\n ,\"discountable_amount\":\"0.00\",  \"undiscountable_amount\":\"0.00\",}","notifyUrl":"http://shop.xxpay.org/goods/payNotify","currency":"cny","device":"WEB","channelId":"WX_NATIVE"}
+2018-08-06 15:14:59.513  INFO 19228 --- [http-nio-3010-exec-3] o.x.web.controller.PayOrderController    : 查询渠道没有正常返回数据,code=0002,msg=数据对象不存在
+2018-08-06 15:14:59.513  INFO 19228 --- [http-nio-3010-exec-3] o.x.web.controller.PayOrderController    : 【商户统一下单】参数校验不通过:Can't found payChannel[channelId=WX_NATIVE,mchId=10000000] record in db.
+2018-08-06 15:14:59.514  INFO 19228 --- [http-nio-3010-exec-3] org.xxpay.common.util.XXPayUtil          : 生成响应数据:{retCode=FAIL, retMsg=Can't found payChannel[channelId=WX_NATIVE,mchId=10000000] record in db.}
+2018-08-06 15:16:09.961  INFO 19228 --- [http-nio-3010-exec-5] o.x.web.controller.PayOrderController    : ###### 开始接收商户统一下单请求 ######
+2018-08-06 15:16:09.962  INFO 19228 --- [http-nio-3010-exec-5] o.x.web.controller.PayOrderController    : 【商户统一下单】/pay/create_order, host:172.26.203.12, service_id:xxpay-web, params:{"amount":1,"mchId":"10000000","mchOrderNo":1533539769583,"subject":"XXPAY支付测试","sign":"9CB6D60E395EAF868222B8E5AE33EFD6","body":"XXPAY支付测试","param1":"","param2":"","clientIp":"211.94.116.218","extra":"{\n  \"productId\": \"120989823\",\n  \"openId\": \"oIkQuwhPgPUgl-TvQ48_UUpZUwMs\",\n  \"sceneInfo\": {\n    \"h5_info\": {\n      \"type\": \"Wap\",\n      \"wap_url\": \"http://shop.xxpay.org\",\n      \"wap_name\": \"xxpay充值\"\n    }\n  }\n ,\"discountable_amount\":\"0.00\",  \"undiscountable_amount\":\"0.00\",}","notifyUrl":"http://shop.xxpay.org/goods/payNotify","currency":"cny","device":"WEB","channelId":"WX_NATIVE"}
+2018-08-06 15:16:10.009  INFO 19228 --- [http-nio-3010-exec-5] o.x.web.controller.PayOrderController    : 【商户统一下单】参数校验不通过:Verify XX pay sign failed.
+2018-08-06 15:16:10.010  INFO 19228 --- [http-nio-3010-exec-5] org.xxpay.common.util.XXPayUtil          : 生成响应数据:{retCode=FAIL, retMsg=Verify XX pay sign failed.}
+2018-08-06 15:18:19.135  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:23:19.137  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:28:19.139  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:33:19.140  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:38:19.144  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:43:19.146  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:48:19.150  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-06 15:53:19.151  INFO 19228 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

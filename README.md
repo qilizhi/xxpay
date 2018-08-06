@@ -117,6 +117,8 @@ xxpay4dubbo-service > xxpay4dubbo-web
 
 项目部署文档：[XxPay项目部署](http://docs.xxpay.org/docs/deploy "xxpay部署")
 
+xxpay4spring-cloud项目的启动顺序为：xxpay-server > xxpay-config > xxpay-service > xxpay-web > xxpay-gateway
+
 作者已成功将项目部署在阿里云主机上，服务器配置为：
 
 | CPU  | 内存 | 操作系统

@@ -13,7 +13,7 @@ import java.util.Map;
 public class PayOrderDemo {
 
     // 商户ID
-    static final String mchId = "20001223";//20001223,20001245
+    static final String mchId = "10000000";//20001223,20001245
     // 加签key
     static final String reqKey = "M86l522AV6q613Ii4W6u8K48uW8vM1N6bFgyv769220MdYe9u37N4y7rI5mQ";
     // 验签key
