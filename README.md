@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 >XxPay'官方技术交流群：206119456（加群暗号：xxpay交流）。
 
 >XxPay'官方资源交流群：214196580`满` 838740906 （加群暗号：xxpay交流）。
@@ -138,3 +139,6 @@ xxpay4spring-cloud项目的启动顺序为：xxpay-server > xxpay-config > xxpay
 微信扫描下面二维码，关注官方公众号：XxPay，获取更多精彩内容。
 
 ![XxPay聚合支付公众号](http://docs.xxpay.org/uploads/201708/attach_14dc8f1fac0a36a1.jpg "XxPay公众号")
+=======
+# xxpay
+>>>>>>> ae287f01b390cd524c85ab8e46710046bf25abbe
